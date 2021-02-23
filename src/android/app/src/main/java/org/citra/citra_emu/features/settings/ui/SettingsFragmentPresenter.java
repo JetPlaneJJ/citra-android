@@ -345,6 +345,9 @@ public final class SettingsFragmentPresenter {
         sl.add(new InputBindingSetting(SettingsFile.KEY_BUTTON_R, Settings.SECTION_CONTROLS, R.string.button_r, buttonR));
         sl.add(new InputBindingSetting(SettingsFile.KEY_BUTTON_ZL, Settings.SECTION_CONTROLS, R.string.button_zl, buttonZL));
         sl.add(new InputBindingSetting(SettingsFile.KEY_BUTTON_ZR, Settings.SECTION_CONTROLS, R.string.button_zr, buttonZR));
+
+        sl.add(new HeaderSetting(null, null, R.string.generic_buttons, 0));
+        sl.add(new SingleChoiceSetting(SettingsFile.KEY_ENABLE_HAPTIC_FEEDBACK, Settings.SECTION_AUDIO, R.string.audio_input_type, 0, R.array.audioInputTypeNames, R.array.audioInputTypeValues, 1, micInputType));
     }
 
     private void addGraphicsSettings(ArrayList<SettingsItem> sl) {

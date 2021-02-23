@@ -105,6 +105,7 @@ public final class SettingsFile {
     public static final String KEY_CSTICK_DOWN = "cstick_down";
     public static final String KEY_CSTICK_LEFT = "cstick_left";
     public static final String KEY_CSTICK_RIGHT = "cstick_right";
+    public static final String KEY_ENABLE_HAPTIC_FEEDBACK = "haptic_feedback";
 
     public static final String KEY_CAMERA_OUTER_RIGHT_NAME = "camera_outer_right_name";
     public static final String KEY_CAMERA_OUTER_RIGHT_CONFIG = "camera_outer_right_config";
